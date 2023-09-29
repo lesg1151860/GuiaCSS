@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/style.css">
+    <title>Panel de Control</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form class="register-form">
+            <h1>Panel de Control</h1>
+            
+            <button type="submit"><a href="login.html" target="_blank">Iniciar Sesión</a></button>
+            <button type="submit"><a href="registrer.html" target="_blank">Registrarse</a></button>
+        </form>
+    </div>
+    
+ 
+        <button onclick="mostrarInformacion()">Mostrar Información</button>
+        <button onclick="realizarAccion()">Realizar Acción</button>
+        
+        <!-- Formulario -->
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+        
+        <!-- Tabla de datos -->
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>Usuario 1</td>
+                <td>usuario1@example.com</td>
+            </tr>
+            <tr>
+                <td>Usuario 2</td>
+                <td>usuario2@example.com</td>
+            </tr>
+        </table>
+        
+        <!-- Script para acciones -->
+        <script>
+            function mostrarInformacion() {
+                alert("Mostrando información importante...");
+            }
+            
+            function realizarAccion() {
+                alert("Realizando una acción importante...");
+            }
+        </script>
+        
+
+</body>
+
+</html>
