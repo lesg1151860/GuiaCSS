@@ -15,21 +15,7 @@ h1{
     padding: 10px;
 }
 
-button[type="submit"]
-{
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    box-sizing: border-box;
-    width: 20%;
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-}
+
 
 table {
     border-collapse: collapse;
