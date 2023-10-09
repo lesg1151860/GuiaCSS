@@ -68,6 +68,8 @@ li a:hover:not(.active){
 }
 a{
     padding: 8px;
+    text-decoration: none;
+    color: white;
 }
 .active {
     background-color: rebeccapurple;
